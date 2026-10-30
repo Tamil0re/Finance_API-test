@@ -6,6 +6,7 @@ Run it:  python -m streamlit run app.py
 import streamlit as st
 
 import bank
+accounts, tx, source = bank.load_bank()
 
 TEAM_NAME = "Your team name"  # TEAM TODO: change this
 
