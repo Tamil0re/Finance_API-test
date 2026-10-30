@@ -2,6 +2,17 @@
 
 Get fake bank accounts and transactions on screen, with your keys stored safely. All data is fake.
 
+## Missed Event 1?
+
+You're not behind. This kit runs on its own, so you can start at Step 1 below and join any team.
+
+To catch up on the project, teams, and roles, read these in the [event1-catchup](event1-catchup) folder:
+
+- [Event 1 slides](event1-catchup/Event-1-Slides.pdf): what we're building, in 5 minutes
+- [Event 1 student guide](event1-catchup/Event-1-Student-Guide.pdf): roles, team tasks, and setup help
+
+Where the guide says `[STARTER REPO LINK]`, use this repo instead.
+
 ## Step 1: Open it
 
 1. Click **Fork** at the top of this page, then **Create fork**.
@@ -17,7 +28,7 @@ cp .env.example .env
 
 Open `.env` and paste your Plaid Sandbox keys after the `=` signs. They're at dashboard.plaid.com → Developers → Keys.
 
-No Plaid account yet? Skip this step. The app uses the CSV backup and you can add keys later.
+No Plaid account yet? Sign up free at dashboard.plaid.com, then come back here. If that takes a while, skip the keys for now: the app uses the CSV backup and you can add them later.
 
 Now check that git can't see the file:
 
